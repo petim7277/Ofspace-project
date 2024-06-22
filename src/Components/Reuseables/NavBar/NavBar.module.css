@@ -208,11 +208,12 @@
 
     .heroText{
         margin-left: -4rem;
-        width: 60vw;
+
     }
 
     .heroText h1{
-        font-size: 30px;
+        font-size: 37px;
+        width: 50vw;
     }
     .logoDiv{
         margin-left: -10rem;
