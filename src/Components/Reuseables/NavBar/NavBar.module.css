@@ -114,18 +114,6 @@
     padding-top: 8px;
 }
 
-/*@media (max-width: 600px) {*/
-/*   .mainDiv{*/
-/*       width: 100%;*/
-/*   }*/
-/*}*/
-
-/*@media (max-width: 10001px) {*/
-
-/*    !*.hamburger{*!*/
-/*    !*    display: none;*!*/
-/*    !*}*!*/
-/*}*/
 @media (max-width: 1024px) {
     .navLinks, .navButtons {
         display: none;
@@ -210,6 +198,9 @@
         margin-left: -8rem;
 
     }
+    .heroText p{
+      font-size: 12px;
+    }
 
     .heroText h1{
         font-size: 40px;
@@ -221,5 +212,6 @@
 
     .hamburger{
         margin-right: -8rem;
+        font-size: 24px;
     }
 }
