@@ -16,6 +16,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#A68572", endColorstr="#313A43", GradientType=1 );
 }
 
+
 .navCont{
     display: flex;
     flex-direction: row;
@@ -111,4 +112,55 @@
 .tabText h5{
     font-size: 14px;
     padding-top: 8px;
+}
+
+/*@media (max-width: 600px) {*/
+/*   .mainDiv{*/
+/*       width: 100%;*/
+/*   }*/
+/*}*/
+
+/*@media (max-width: 10001px) {*/
+
+/*    !*.hamburger{*!*/
+/*    !*    display: none;*!*/
+/*    !*}*!*/
+/*}*/
+@media (max-width: 1024px) {
+    .navLinks, .navButtons {
+        display: none;
+        flex-direction: column;
+        width: 126vw;
+    }
+
+    .navLinksOpen, .navButtonsOpen {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navCont {
+        position: relative;
+    }
+
+    .navLinksOpen, .navButtonsOpen {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        right: 0;
+        background-color: #313A43;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .tabDiv {
+        flex-direction: column;
+        align-items: center;
+    }
 }
