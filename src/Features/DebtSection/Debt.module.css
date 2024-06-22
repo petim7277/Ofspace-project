@@ -1,0 +1,58 @@
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Britanica';
+    src: url("britanica/britanica-black.ttf") format('truetype');
+}
+.mainCont{
+    width: 100vw;
+    height: 70vh;
+    background-color: #FEF9F5;
+
+}
+.wrapDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 2.50rem;
+    margin-left: 6.50rem;
+    padding-top: 2rem;
+}
+
+.firstBox{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 20rem;
+    padding-left: 1.50rem;
+    border: 1px solid #fce8d6;
+}
+.imageOne img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10px;
+}
+
+.boxText{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxText h6 {
+    font-family: Britanica,cursive;
+    font-size: 17px;
+    color: #394049;
+}
+
+.boxText p{
+    color: #ea732b;
+    font-size: 12px;
+    padding-top: 1rem;
+}
+
+.secondDiv img{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 10px;
+}

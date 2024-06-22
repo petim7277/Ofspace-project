@@ -1,0 +1,80 @@
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Britanica';
+    src: url("britanica/britanica-black.ttf") format('truetype');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'DreamingOut-loud';
+    src: url("DreamingOut_loud/dreaming-outloud-script-slanted-pro.otf") format("truetype");
+}
+
+.mainCont{
+    width: 100vw;
+    height: 60vh;
+    background-color: #FFE7DA;
+}
+
+.wrapperDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 8.20rem;
+    margin-left: 5rem;
+}
+
+.firstDiv{
+    margin-top: 5rem;
+}
+
+.firstDiv p{
+    color: #394049;
+    font-family: Britanica,cursive;
+    padding-top: 1rem;
+
+}
+.logoWrap{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.20rem;
+
+}
+
+.mainImg{
+    width: 4rem;
+    height: 4rem;
+}
+.mainText h1{
+    font-family: Verdana, serif;
+    color: #394049;
+}
+
+.mainText p{
+    color: #394049;
+    font-family:DreamingOut-loud,cursive ;
+}
+.imgDiv{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.secondDiv{
+    margin-top: 6.50rem;
+
+}
+.secondDiv p{
+    color: #394049;
+    font-family: Britanica,cursive;
+    padding-top: 1rem;
+}
+
+.secondDiv  h4{
+    color: #394049;
+    font-family: Britanica,cursive;
+    font-size: 22px;
+}

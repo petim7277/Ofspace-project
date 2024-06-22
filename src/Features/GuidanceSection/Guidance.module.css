@@ -1,0 +1,122 @@
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Britanica';
+    src: url("britanica/britanica-black.ttf") format('truetype');
+}
+
+.mainCont{
+    width: 100vw;
+    height: 70vh;
+    margin-top: 37rem;
+}
+
+.wrapDiv{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    gap: 5rem;
+}
+
+.firstDiv{
+     margin-left: 7rem;
+}
+
+.firstDiv p{
+    color: #EBC3AA;
+}
+
+.firstDiv h1{
+    font-family: Britanica, cursive;
+    color: #525960;
+    width: 23rem;
+    font-size: 40px;
+}
+
+.innerDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+.firstText p {
+    gap: 1rem;
+    color: #525960;
+    border: 2px solid peachpuff;
+    border-radius: 8px;
+    width: 10rem;
+    height: 1.80rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.secondText p{
+    gap: 1rem;
+    color: #525960;
+    border: 2px solid peachpuff;
+    border-radius: 8px;
+    width: 10rem;
+    height: 1.80rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondDiv{
+ display: flex;
+ flex-direction: row;
+    /*position: absolute;*/
+}
+
+.firstImgDiv{
+    width: 15rem;
+    height: 15rem;
+    background-color: #EDB18D;
+    border-radius: 10px;
+}
+
+.secondImgDiv{
+    width: 14rem;
+    height: 15rem;
+    border-radius: 10px;
+    margin-top: 2.50rem;
+    margin-right: -10.50rem;
+
+}
+
+.secondImgDiv img{
+    width: 14rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.thirdImgDiv{
+    width: 12rem;
+    height: 13rem;
+    border-radius: 10px;
+    margin-top: 4.50rem;
+    margin-right: -6rem;
+}
+
+.thirdImgDiv img{
+    width: 12rem;
+    height: 13rem;
+    border-radius: 10px;
+}
+
+.fourthImgDiv{
+     width: 7rem;
+     height: 6rem;
+     margin-top: 8rem;
+    margin-right: -1rem;
+}
+
+.fourthImgDiv img{
+    width: 7rem;
+    height: 6rem;
+    border-radius: 10px;
+}

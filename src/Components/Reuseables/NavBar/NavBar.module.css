@@ -1,0 +1,114 @@
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Britanica';
+    src: url("britanica/britanica-black.ttf") format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainDiv{
+    width: 100vw;
+    height: 85vh;
+    background: hsla(210, 16%, 23%, 1);
+    background: linear-gradient(90deg, hsla(210, 16%, 23%, 1) 0%, hsla(22, 23%, 55%, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#A68572", endColorstr="#313A43", GradientType=1 );
+}
+
+.navCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+.logoDiv img{
+    width: 8rem;
+    height: 1.85rem;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navLinks a{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Britanica",cursive;
+
+}
+
+.navButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: #FFFFFF;
+    font-family: "Britanica",cursive;
+}
+
+.navButtons button{
+    background: none;
+    border: 1px solid white;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.heroDiv{
+    padding-left: 11rem;
+    padding-top: 3.50rem;
+}
+
+.heroText h1 {
+    font-family: "Britanica",cursive;
+    color: #EFB08C;
+    font-size: 55px;
+
+}
+
+.heroText p{
+    color: #FFFFFF;
+
+}
+
+.tabDiv{
+    background-color: #EDB18D;
+    width: 92vw;
+    height: 11rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: right;
+    margin-top: 6.50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    padding-top: 3rem;
+    gap: 1rem;
+}
+.tabText{
+    width: 15rem;
+}
+
+.tabText h3{
+    font-size: 15px;
+
+}
+
+.tabText p{
+    font-size: 14px;
+}
+.tabText h4{
+    font-size: 14px;
+}
+
+.tabText h5{
+    font-size: 14px;
+    padding-top: 8px;
+}

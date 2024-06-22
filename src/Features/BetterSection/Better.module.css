@@ -1,0 +1,99 @@
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Britanica';
+    src: url("britanica/britanica-black.ttf") format('truetype');
+}
+
+.mainCont{
+    width: 100vw;
+    height:70vh ;
+    background: hsla(20, 14%, 45%, 1);
+    background: linear-gradient(45deg, hsla(20, 14%, 45%, 1) 0%, hsla(215, 17%, 22%, 1) 43%);
+
+    background: -moz-linear-gradient(45deg, hsla(20, 14%, 45%, 1) 0%, hsla(215, 17%, 22%, 1) 43%);
+
+    background: -webkit-linear-gradient(45deg, hsla(20, 14%, 45%, 1) 0%, hsla(215, 17%, 22%, 1) 43%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#836D62", endColorstr="#2F3742", GradientType=1 );
+}
+
+.wrapDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.firstDiv img {
+    width: 17rem;
+    height: 22.50rem;
+    border-radius: 10px;
+    margin-left: 6.50rem;
+    margin-top: 3.50rem;
+}
+
+.secondDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.secondDiv h1 {
+    font-family: Britanica,cursive;
+    font-size: 2.50rem;
+    color: #FFFFFF;
+}
+.mortgage{
+  padding-top: 1rem;
+}
+.mortgageText{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: #FFFFFF;
+}
+.lines{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 5px;
+}
+
+.lineOne{
+    background-color: #EDB18D;
+    height: 0.10rem;
+    width: 4.50rem;
+    border-radius: 10px;
+
+}
+
+.lineTwo{
+    width: 18.50rem;
+    height: 0.10rem;
+    color: #FFFFFF;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 1.50rem;
+    margin-top: 1rem;
+}
+
+.firstBox{
+    width: 16.50rem;
+    height: 16rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 1.50rem;
+    padding-left: 1rem;
+}
+
+.secondBox{
+    width: 13rem;
+    height: 16rem;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 1.50rem;
+    padding-left: 1rem;
+}
