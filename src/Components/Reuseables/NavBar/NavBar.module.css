@@ -168,7 +168,7 @@
 @media (max-width: 728px) {
 
     .mainDiv{
-        height:50vh ;
+        height:43vh ;
         width: 100vw;
     }
     .tabDiv {
@@ -177,13 +177,14 @@
         flex-direction: column;
         align-items: center;
         border-radius: unset;
+        float: unset;
     }
 
     .heroText{
         margin-left: -7.50rem;
     }
     .logoDiv{
-        margin-left: -11.50rem;
+        margin-left: -10rem;
     }
 
     .hamburger{

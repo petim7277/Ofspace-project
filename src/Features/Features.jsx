@@ -9,13 +9,13 @@ import FooterSection from "./FooterSection/FooterSection";
 const Features = ()=>{
     return(
         <>
-        <Empower/>
-        <Guidance/>
-        <Better/>
-        <Debt/>
-        <Reviews/>
-        <Perfect/>
-        <FooterSection/>
+        {/*<Empower/>*/}
+        {/*<Guidance/>*/}
+        {/*<Better/>*/}
+        {/*<Debt/>*/}
+        {/*<Reviews/>*/}
+        {/*<Perfect/>*/}
+        {/*<FooterSection/>*/}
         </>
     );
 
