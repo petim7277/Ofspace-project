@@ -117,7 +117,7 @@ margin-top: 2rem;
         align-items: center;
         flex-direction: column;
         margin-left: -5.41rem;
-        padding-right: -4rem;
+        padding-left: -4rem;
 
     }
 
@@ -137,7 +137,8 @@ margin-top: 2rem;
 
     .secondDiv{
        align-items: center;
-       padding-left: 1rem;
+       padding-left: 2.50rem;
+        font-size: 15px;
     }
 
     .lastDiv{
