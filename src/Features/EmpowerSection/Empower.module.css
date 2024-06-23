@@ -233,7 +233,7 @@ margin-top: 2rem;
 
 @media (max-width: 768px) {
     .mainCont {
-        margin-top: 5rem;
+        margin-top: 10rem;
         height: auto;
     }
 
