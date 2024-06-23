@@ -69,7 +69,7 @@
 .secondDiv{
  display: flex;
  flex-direction: row;
-    /*position: absolute;*/
+
 }
 
 .firstImgDiv{
@@ -138,15 +138,13 @@
     }
 
     .firstDiv {
-        margin-left: 1.50rem;
+        margin-left: 1rem;
     }
 
 
 
     .secondDiv {
-        display: flex;
-        flex-direction: row;
-
+       margin-left: -1rem;
     }
 
     .firstText p {
@@ -164,14 +162,14 @@
     }
 
     .firstImgDiv {
-        width: 10rem;
-        height: 10rem;
+        width: 7rem;
+        height: 7rem;
 
     }
 
     .secondImgDiv  img{
-        width: 10rem;
-        height: 10rem;
+        width: 7rem;
+        height: 7rem;
         margin-top: 3rem;
         margin-right: -7rem;
 
@@ -180,8 +178,8 @@
 
 
     .thirdImgDiv img {
-        width: 10rem;
-        height: 10rem;
+        width: 7rem;
+        height: 7rem;
         margin-top: 4.50rem;
         margin-right: -5rem;
     }
@@ -189,8 +187,8 @@
 
 
     .fourthImgDiv img {
-        width: 6rem;
-        height: 5rem;
+        width: 4rem;
+        height: 3rem;
         margin-top: 2rem;
         margin-left: 3rem;
     }
