@@ -147,9 +147,17 @@
         margin-right: -15rem;
     }
 
-    .heroText{
-        /*margin-left: 11rem;*/
+    .mainDiv{
+        height: 37vh;
     }
+    .logoDiv{
+        margin-left: -7rem;
+    }
+
+    .navCont{
+        gap: 15rem;
+    }
+
 }
 
 
@@ -192,6 +200,11 @@
         align-items: center;
         border-radius: unset;
         float: unset;
+    }
+
+    .navCont{
+        /*display: unset;*/
+        gap: -1rem;
     }
 
     .heroText{

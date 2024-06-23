@@ -1,6 +1,6 @@
 
 import styles from "./FooterSection.module.css"
-import  logo from "../../Assets/logo.jpg"
+// import  logo from "../../Assets/logo.jpg"
 import miniLogo from  "../../Assets/download.png"
 import instaIcon from "../../Assets/instaIcon.png"
 import facebookLogo from "../../Assets/facebookLogo.png"
