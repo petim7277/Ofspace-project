@@ -146,7 +146,21 @@
     .secondDiv {
         display: flex;
         flex-direction: row;
-        /*position: absolute;*/
+
+    }
+
+    .firstText p {
+        width: 8rem;
+        margin-top: 0.60rem;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .secondText p{
+        width: 8rem;
+        margin-top: 0.60rem;
+        font-size: 13px;
+        text-align: center;
     }
 
     .firstImgDiv {
