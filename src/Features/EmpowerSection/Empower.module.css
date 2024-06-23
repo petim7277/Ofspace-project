@@ -99,7 +99,61 @@ margin-top: 2rem;
 
 
 @media (max-width: 1200px) {
+    .wrapDiv {
+        flex-direction: row;
+        margin-left: 0;
+    }
 
+    .firstDiv {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 1.50rem;
+    }
+
+    .secondDiv p{
+        font-size: 32px;
+    }
+    .secondDiv h1 {
+        font-size: 5rem;
+    }
+
+    .secondDiv ul li{
+        font-size: 30px;
+    }
+
+    .secondDiv{
+        justify-content: center;
+    }
+
+
+    .greyDiv{
+        width: 15rem;
+        height: 12rem;
+    }
+    .whiteDiv {
+        width: 15rem;
+        height: 12rem;
+        margin-left: 0;
+    }
+
+    .smallDiv {
+        width: 15rem;
+        height: 12rem;
+        margin-left: 0;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    .lastDiv {
+        width: 14rem;
+        height: 10rem;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -180,5 +234,53 @@ margin-top: 2rem;
 }
 
 @media (max-width: 480px) {
+    .mainCont {
+        margin-top: 2rem;
+        height: auto;
+    }
 
+    .wrapDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstDiv{
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 0;
+        gap: 1rem;
+        font-size: 10px;
+    }
+
+
+    .greyDiv{
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .whiteDiv{
+        width: 7rem;
+        height: 7rem;
+        padding-left:0;
+        margin-left: 0;
+    }
+
+    .smallDiv{
+        background-color: #FFFFFF;
+        width: 7rem;
+        height: 7rem;
+        margin-top: 0;
+        font-size: 12px;
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .lastDiv{
+        width: 8rem;
+        height: 5rem;
+        font-size: 12px;
+        padding-left: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
 }
