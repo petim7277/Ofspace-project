@@ -9,7 +9,7 @@
     margin-top: 10rem;
     width: 100vw;
     height: 65vh;
-    border: 3px solid orangered;
+
 }
 
 .wrapDiv{
@@ -100,180 +100,50 @@ margin-top: 2rem;
 }
 
 
-/*@media (max-width: 728px){*/
 
-/*    .mainCont{*/
-/*        margin-top: 5rem;*/
-/*        width: 100vw;*/
-/*        height: 100vh;*/
-/*        justify-content: center;*/
-/*        border: 3px solid orangered;*/
-/*    }*/
-
-/*    .wrapDiv{*/
-/*        display: flex;*/
-/*        flex-direction: row;*/
-/*        justify-content: space-evenly;*/
-/*        align-content: space-evenly;*/
-/*        margin-left: -9rem;*/
-
-/*    }*/
-
-/*    .firstDiv{*/
-/*        display: flex;*/
-/*        flex-direction: row;*/
-/*        position: relative;*/
-/*        margin-top: 2rem;*/
-/*        margin-left: -5rem;*/
-/*        gap: 9.20rem;*/
-
-/*    }*/
-
-/*    .greyDiv{*/
-/*        background-color: #262650;*/
-/*        width: 12rem;*/
-/*        height: 12rem;*/
-/*        border-radius: 10px;*/
-/*    }*/
-
-/*    .whiteDiv{*/
-/*        background-color: white;*/
-/*        width: 10rem;*/
-/*        height: 13rem;*/
-/*        border-radius: 10px;*/
-/*        margin-left: -15rem;*/
-/*        margin-top: 2rem;*/
-/*        border: 3px solid pink;*/
-/*    }*/
-
-/*    .smallDiv{*/
-/*        background-color: #FFFFFF;*/
-/*        width: 7rem;*/
-/*        height: 7rem;*/
-/*        border-radius: 10px;*/
-/*        border: 2px solid #394049;*/
-/*        margin-left: -10rem;*/
-/*        margin-top: 5rem;*/
-/*        font-size: 15px;*/
-/*        text-align: center;*/
-/*        padding-top: 5px;*/
-/*    }*/
-
-/*    .lastDiv{*/
-/*        width: 9rem;*/
-/*        height: 5rem;*/
-/*        background-color: #eaccd1;*/
-/*        border-radius: 10px;*/
-/*        border: 3px solid #e7a1b8;*/
-/*        font-size: 12px;*/
-/*        padding-left: 10px;*/
-/*        margin-top: 13rem;*/
-/*        margin-left: -30rem;*/
-/*    }*/
-
-/*    .secondDiv{*/
-/*        display: flex;*/
-/*        flex-direction: column;*/
-/*        !*margin-left: -1rem;*!*/
-/*        margin-top: 2rem;*/
-/*    }*/
-
-/*    .secondDiv .create{*/
-/*        color: #E6A782;*/
-/*    }*/
-
-/*    .wrapDiv .secondDiv h1{*/
-/*        font-family: Britanica, cursive;*/
-/*        color: #394049;*/
-
-/*    }*/
-/*    .secondDiv p{*/
-/*        color: #394049;*/
-/*    }*/
-
-/*    .secondDiv ul li{*/
-/*        color: #394049 ;*/
-/*        padding-top: 15px;*/
-
-/*    }*/
-/*}*/
-
-
-/* Responsive styles */
 @media (max-width: 1200px) {
-    .wrapDiv {
-        flex-direction: column;
-        margin-left: 0;
-    }
 
-    .firstDiv {
-        flex-direction: column;
-        margin-left: 0;
-        gap: 2rem;
-    }
-
-    .greyDiv, .whiteDiv, .smallDiv, .lastDiv {
-        width: 80%;
-        margin-left: 0;
-    }
-
-    .whiteDiv {
-        margin-top: 1rem;
-    }
-
-    .smallDiv {
-        margin-top: 2rem;
-    }
-
-    .lastDiv {
-        margin-top: 3rem;
-        margin-left: 0;
-    }
 }
 
 @media (max-width: 768px) {
-    .mainCont {
-        margin-top: 10rem;
+
+
+    .mainCont{
+        margin-top: 8rem;
         height: auto;
+        border: 3px solid orangered;
     }
 
-    .wrapDiv {
+    .wrapDiv{
+        justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
 
-    .firstDiv {
+    .firstDiv{
+        justify-content: center;
         align-items: center;
+        text-align: center;
+
     }
 
-    .greyDiv, .whiteDiv, .smallDiv, .lastDiv {
-        width: 90%;
+    .greyDiv .whiteDiv.smallDiv.lastDiv{
+       width: 90%;
+
     }
 
-    .lastDiv {
+
+    .secondDiv{
+       align-items: center;
+        justify-content: center;
+    }
+
+    .lastDiv{
         margin-top: 2rem;
     }
+
 }
 
 @media (max-width: 480px) {
-    .mainCont {
-        margin-top: 2rem;
-        height: auto;
-    }
 
-    .wrapDiv, .firstDiv {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .greyDiv, .whiteDiv, .smallDiv, .lastDiv {
-        width: 95%;
-    }
-
-    .smallDiv {
-        font-size: 12px;
-    }
-
-    .lastDiv {
-        margin-top: 1rem;
-    }
 }
