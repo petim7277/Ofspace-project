@@ -18,7 +18,7 @@ const Empower = ()=>{
                    <div className={styles.secondDiv}>
                            <p className={styles.create}>CREATE A FREE ACCOUNT</p>
                            <h1>Empower your<br/> financial journey</h1>
-                           <p>Activate your free Bankrate account to unlock <br/>
+                           <p className={styles.activate}>Activate your free Bankrate account to unlock <br/>
                               our most premium tools and content. </p>
                            <ul>
                                <li>Improve your financial health with our suite of<br/>personal finance tools</li>
