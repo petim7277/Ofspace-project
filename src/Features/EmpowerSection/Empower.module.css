@@ -137,13 +137,10 @@ margin-top: 2rem;
 
     .secondDiv{
        align-items: center;
-       padding-left: 5rem;
+       padding-left: 10rem;
         font-size: 15px;
     }
 
-    .lastDiv{
-        margin-top: 2rem;
-    }
 
 
     .greyDiv{
@@ -167,7 +164,7 @@ margin-top: 2rem;
     }
 
     .lastDiv{
-        width: 7rem;
+        width: 9rem;
         height: 4rem;
         font-size: 12px;
         padding-left: 8px;
