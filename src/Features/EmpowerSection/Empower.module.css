@@ -99,69 +99,70 @@ margin-top: 2rem;
 
 
 @media (max-width: 1024px) {
-    /*.wrapDiv {*/
-    /*    flex-direction: row;*/
-    /*    margin-left: 0;*/
-    /*}*/
-
-    /*.firstDiv {*/
-    /*    flex-direction: column;*/
-    /*    margin-left: 0;*/
-    /*    gap: 1.50rem;*/
-    /*}*/
-
-    /*.secondDiv p{*/
-    /*    font-size: 32px;*/
-    /*}*/
-    /*.secondDiv h1 {*/
-    /*    font-size: 5rem;*/
-    /*}*/
-
-    /*.secondDiv ul li{*/
-    /*    font-size: 30px;*/
-    /*}*/
-
-    /*.secondDiv{*/
-    /*    justify-content: center;*/
-    /*}*/
-
-
-    /*.greyDiv{*/
-    /*    width: 15rem;*/
-    /*    height: 12rem;*/
-    /*}*/
-    /*.whiteDiv {*/
-    /*    width: 15rem;*/
-    /*    height: 12rem;*/
-    /*    margin-left: 0;*/
-    /*}*/
-
-    /*.smallDiv {*/
-    /*    width: 15rem;*/
-    /*    height: 12rem;*/
-    /*    margin-left: 0;*/
-    /*    margin-top: 0;*/
-    /*    padding-top: 0;*/
-    /*    font-size: 20px;*/
-    /*}*/
-
-    /*.lastDiv {*/
-    /*    width: 14rem;*/
-    /*    height: 10rem;*/
-    /*    margin-top: 0;*/
-    /*    margin-left: 0;*/
-    /*    font-size: 17px;*/
-    /*    padding-left: 20px;*/
-    /*    padding-top: 20px;*/
-    /*}*/
-
     .wrapDiv {
-        flex-direction: column;
+        flex-direction: row;
         margin-left: 0;
     }
 
     .firstDiv {
-        flex-direction: column;
+        flex-direction: row;
+        margin-left: 0;
+        gap: 1.50rem;
+    }
+
+    .secondDiv p{
+        font-size: 32px;
+    }
+    .secondDiv h1 {
+        font-size: 5rem;
+    }
+
+    .secondDiv ul li{
+        font-size: 30px;
+    }
+
+    .secondDiv{
+        justify-content: center;
+    }
+
+
+    .greyDiv{
+        width: 15rem;
+        height: 12rem;
+    }
+    .whiteDiv {
+        width: 15rem;
+        height: 12rem;
+        margin-left: 0;
+    }
+
+    .smallDiv {
+        width: 15rem;
+        height: 12rem;
+        margin-left: 0;
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 20px;
+    }
+
+    .lastDiv {
+        width: 14rem;
+        height: 10rem;
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 17px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    .wrapDiv {
+
+        margin-left: 0;
+    }
+
+    .firstDiv {
         margin-left: 0;
         gap: 2rem;
     }
