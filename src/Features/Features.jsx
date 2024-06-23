@@ -1,4 +1,4 @@
-// import Empower from "./EmpowerSection/Empower";
+import Empower from "./EmpowerSection/Empower";
 // import Guidance from "./GuidanceSection/Guidance";
 // import Better from "./BetterSection/Better";
 // import Debt from "./DebtSection/Debt";
@@ -9,7 +9,7 @@
 const Features = ()=>{
     return(
         <>
-        {/*<Empower/>*/}
+        <Empower/>
         {/*<Guidance/>*/}
         {/*<Better/>*/}
         {/*<Debt/>*/}
