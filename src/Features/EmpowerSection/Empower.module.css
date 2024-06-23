@@ -111,6 +111,7 @@ margin-top: 2rem;
     .mainCont{
         margin-top: 8rem;
         height: auto;
+        width: auto;
         border: 3px solid orangered;
     }
 
@@ -118,17 +119,20 @@ margin-top: 2rem;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-left: 3rem;
+        margin-top: 7rem;
     }
 
     .firstDiv{
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding-left: 3rem;
 
     }
 
     .greyDiv .whiteDiv.smallDiv.lastDiv{
-       width: 90%;
+       width: 80%;
 
     }
 
