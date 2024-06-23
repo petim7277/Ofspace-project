@@ -126,8 +126,8 @@
 
 
     .mainCont {
-        width: 100vw;
-
+        width: 95vw;
+        background-color: orangered;
         height: auto;
 
     }
@@ -164,7 +164,7 @@
     }
 
     .firstImgDiv {
-        width: 8rem;
+        width: 7rem;
         height: 7rem;
         margin-left: 8rem;
 
