@@ -9,7 +9,6 @@
     margin-top: 10rem;
     width: 100vw;
     height: 65vh;
-
 }
 
 .wrapDiv{
@@ -112,14 +111,14 @@ margin-top: 2rem;
         margin-top: 8rem;
         height: auto;
         width: auto;
-        border: 3px solid orangered;
+
     }
 
     .wrapDiv{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-left: 3rem;
+        margin-left: 1rem;
         margin-top: 7rem;
     }
 
@@ -127,19 +126,19 @@ margin-top: 2rem;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding-left: 3rem;
+        padding-left: 1rem;
 
     }
 
     .greyDiv .whiteDiv.smallDiv.lastDiv{
-       width: 80%;
+       width: 70%;
 
     }
 
 
     .secondDiv{
        align-items: center;
-        justify-content: center;
+       padding-left: 1rem;
     }
 
     .lastDiv{

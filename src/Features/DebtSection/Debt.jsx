@@ -11,7 +11,7 @@ const  Debt = ()=>{
                            <div className={styles.firstDiv}>
                                <div className={styles.firstBox}>
                                    <div className={styles.imageOne}>
-                                       <img src={mom} alt={"Image of a woman"}/>
+                                       <img src={mom} alt={"of a woman"}/>
                                    </div>
                                    <div className={styles.boxText}>
                                    <p>DEBT</p>
@@ -23,7 +23,7 @@ const  Debt = ()=>{
 
                                  <div className={styles.firstBox}>
                                      <div className={styles.imageOne}>
-                                         <img src={woman} alt={"Image of a woman"}/>
+                                         <img src={woman} alt={" a woman"}/>
                                      </div>
                                      <div className={styles.boxText}>
                                      <p>DEBT</p>
@@ -35,7 +35,7 @@ const  Debt = ()=>{
 
                                  <div className={styles.firstBox}>
                                      <div className={styles.imageOne}>
-                                         <img src={man} alt={"Image of a woman"}/>
+                                         <img src={man} alt={"  a woman"}/>
                                      </div>
                                      <div className={styles.boxText}>
                                      <p>DEBT</p>
@@ -45,7 +45,7 @@ const  Debt = ()=>{
                           </div>
 
                           <div className={styles.secondDiv}>
-                              <img src={house} alt={"Image of a pentHouse"}/>
+                              <img src={house} alt={" a pentHouse"}/>
                           </div>
                  </div>
         </div>

@@ -5,7 +5,7 @@ const Better = ()=>{
         <div className={styles.mainCont}>
             <div className={styles.wrapDiv}>
                 <div className={styles.firstDiv}>
-                    <img src={man} alt={"Image of a man sitting on a couch"}/>
+                    <img src={man} alt={" a man sitting on a couch"}/>
                 </div>
                 <div className={styles.secondDiv}>
                         <h1>A better rate is waiting</h1>
