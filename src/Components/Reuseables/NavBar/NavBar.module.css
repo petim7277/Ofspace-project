@@ -92,6 +92,7 @@
     align-content: space-evenly;
     padding-top: 3rem;
     gap: 1rem;
+    position: sticky;
 }
 .tabText{
     width: 15rem;
