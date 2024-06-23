@@ -233,54 +233,54 @@ margin-top: 2rem;
 
 }
 
-@media (max-width: 480px) {
-    .mainCont {
-        margin-top: 2rem;
-        height: auto;
-    }
+/*@media (max-width: 480px) {*/
+/*    .mainCont {*/
+/*        margin-top: 2rem;*/
+/*        height: auto;*/
+/*    }*/
 
-    .wrapDiv {
-        flex-direction: column;
-        align-items: center;
-    }
+/*    .wrapDiv {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
 
-    .firstDiv{
-        flex-direction: column;
-        margin-top: 2rem;
-        margin-left: 0;
-        gap: 1rem;
-        font-size: 10px;
-    }
+/*    .firstDiv{*/
+/*        flex-direction: column;*/
+/*        margin-top: 2rem;*/
+/*        margin-left: 0;*/
+/*        gap: 1rem;*/
+/*        font-size: 10px;*/
+/*    }*/
 
 
-    .greyDiv{
-        width: 7rem;
-        height: 7rem;
-    }
+/*    .greyDiv{*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*    }*/
 
-    .whiteDiv{
-        width: 7rem;
-        height: 7rem;
-        padding-left:0;
-        margin-left: 0;
-    }
+/*    .whiteDiv{*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*        padding-left:0;*/
+/*        margin-left: 0;*/
+/*    }*/
 
-    .smallDiv{
-        background-color: #FFFFFF;
-        width: 7rem;
-        height: 7rem;
-        margin-top: 0;
-        font-size: 12px;
-        padding-top: 0;
-        margin-left: 0;
-    }
+/*    .smallDiv{*/
+/*        background-color: #FFFFFF;*/
+/*        width: 7rem;*/
+/*        height: 7rem;*/
+/*        margin-top: 0;*/
+/*        font-size: 12px;*/
+/*        padding-top: 0;*/
+/*        margin-left: 0;*/
+/*    }*/
 
-    .lastDiv{
-        width: 8rem;
-        height: 5rem;
-        font-size: 12px;
-        padding-left: 0;
-        margin-top: 0;
-        margin-left: 0;
-    }
-}
+/*    .lastDiv{*/
+/*        width: 8rem;*/
+/*        height: 5rem;*/
+/*        font-size: 12px;*/
+/*        padding-left: 0;*/
+/*        margin-top: 0;*/
+/*        margin-left: 0;*/
+/*    }*/
+/*}*/
