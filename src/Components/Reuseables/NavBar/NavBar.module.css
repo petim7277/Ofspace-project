@@ -152,7 +152,9 @@
         height: 37vh;
     }
 
-
+    .tabText{
+        margin-left: 1rem;
+    }
 }
 
 
@@ -181,6 +183,8 @@
     .hamburger{
         margin-right: -8rem;
     }
+
+
 }
 
 @media (max-width: 720px){

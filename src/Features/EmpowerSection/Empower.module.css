@@ -75,7 +75,6 @@ display: flex;
 .secondDiv{
 display: flex;
 flex-direction: column;
-/*margin-left: -1rem;*/
 margin-top: 2rem;
 }
 
@@ -119,7 +118,7 @@ margin-top: 2rem;
         align-items: center;
         flex-direction: column;
         margin-left: 1rem;
-        margin-top: 7rem;
+
     }
 
     .firstDiv{
@@ -131,7 +130,7 @@ margin-top: 2rem;
     }
 
     .greyDiv .whiteDiv.smallDiv.lastDiv{
-       width: 70%;
+       width: 50%;
 
     }
 
