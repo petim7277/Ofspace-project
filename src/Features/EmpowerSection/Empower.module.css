@@ -124,12 +124,12 @@ margin-top: 2rem;
     .firstDiv{
         justify-content: center;
         align-items: center;
-        text-align: center;
+
         margin-left: 0;
 
     }
 
-    .greyDiv .whiteDiv.smallDiv.lastDiv{
+    .greyDiv, .whiteDiv, .smallDiv, .lastDiv{
        width: 50%;
 
     }
@@ -137,7 +137,7 @@ margin-top: 2rem;
 
     .secondDiv{
        align-items: center;
-       padding-left: 2.50rem;
+       padding-left: 5rem;
         font-size: 15px;
     }
 
@@ -154,7 +154,7 @@ margin-top: 2rem;
     .whiteDiv{
         width: 8rem;
         height: 11rem;
-        /*padding-left: -18rem;*/
+        padding-left: -18rem;
     }
 
     .smallDiv{
