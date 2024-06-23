@@ -29,8 +29,9 @@
 .firstDiv h1{
     font-family: Britanica, cursive;
     color: #525960;
-    width: 23rem;
+    width: 20rem;
     font-size: 40px;
+
 }
 
 .innerDiv{
@@ -125,7 +126,8 @@
 
 
     .mainCont {
-        width: auto;
+        width: 60vw;
+        border: 5px solid orangered;
         height: auto;
 
     }
@@ -164,9 +166,14 @@
     .firstImgDiv {
         width: 7rem;
         height: 7rem;
+        margin-left: 10rem;
+
 
     }
+    .secondImgDiv{
 
+        width: 7rem;
+    }
     .secondImgDiv  img{
         width: 7rem;
         height: 7rem;
