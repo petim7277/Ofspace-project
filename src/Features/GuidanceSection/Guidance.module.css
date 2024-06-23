@@ -155,10 +155,9 @@
 
     }
 
-    .secondImgDiv {
+    .secondImgDiv  img{
         width: 10rem;
         height: 10rem;
-
         margin-top: 3rem;
         margin-right: -7rem;
 
@@ -166,7 +165,7 @@
 
 
 
-    .thirdImgDiv {
+    .thirdImgDiv img {
         width: 10rem;
         height: 10rem;
         margin-top: 4.50rem;
@@ -175,11 +174,11 @@
 
 
 
-    .fourthImgDiv {
+    .fourthImgDiv img {
         width: 6rem;
         height: 5rem;
-        margin-top: 8rem;
-        margin-right: -1rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
     }
 
 
