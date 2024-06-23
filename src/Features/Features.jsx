@@ -1,5 +1,5 @@
 import Empower from "./EmpowerSection/Empower";
-// import Guidance from "./GuidanceSection/Guidance";
+import Guidance from "./GuidanceSection/Guidance";
 // import Better from "./BetterSection/Better";
 // import Debt from "./DebtSection/Debt";
 // import Reviews from "./ReviewsSection/Reviews";
@@ -10,7 +10,7 @@ const Features = ()=>{
     return(
         <>
         <Empower/>
-        {/*<Guidance/>*/}
+        <Guidance/>
         {/*<Better/>*/}
         {/*<Debt/>*/}
         {/*<Reviews/>*/}
