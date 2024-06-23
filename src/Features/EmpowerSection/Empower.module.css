@@ -102,21 +102,22 @@ margin-top: 2rem;
 
 @media (max-width: 728px){
   .mainCont{
-      border: 7px solid orangered;
+      /*border: 7px solid orangered;*/
       width: 100vw;
+      height: 100vh;
       margin-top: unset;
       float: unset;
   }
     .wrapDiv{
         display: flex;
-        flex-direction: unset;
+        flex-direction: column;
         justify-content: unset;
         align-content: unset;
 
     }
     .firstDiv{
 
-        flex-direction: unset;
+        flex-direction: column;
         position: unset;
         margin-top: 1rem;
         /*margin-left: -21.50rem;*/
