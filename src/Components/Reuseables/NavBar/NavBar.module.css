@@ -150,13 +150,7 @@
     .mainDiv{
         height: 37vh;
     }
-    .logoDiv{
-        margin-left: -7rem;
-    }
 
-    .navCont{
-        gap: 15rem;
-    }
 
 }
 
@@ -201,8 +195,6 @@
         border-radius: unset;
         float: unset;
     }
-
-
 
     .heroText{
         margin-left: -8rem;
