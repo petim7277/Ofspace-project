@@ -109,7 +109,7 @@
     .wrapDiv{
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 4rem;
         justify-content: center;
         align-content: center;
         margin-left: 1.50rem;
