@@ -56,3 +56,39 @@
     height: 20rem;
     border-radius: 10px;
 }
+
+@media (max-width: 728px) {
+    .mainCont{
+        width: 100vw;
+        height: 70vh;
+
+
+    }
+    .wrapDiv{
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 2rem;
+        padding-top: 1.50rem;
+    }
+
+    .firstBox{
+        gap: 1rem;
+        width: 15rem;
+        height: auto;
+        padding-left: 1.50rem;
+        font-size: 12px;
+    }
+    .imageOne img{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 10px;
+    }
+
+
+
+    .secondDiv img{
+        width: 15rem;
+        height: 8rem;
+        border-radius: 10px;
+    }
+}

@@ -1,7 +1,7 @@
 import Empower from "./EmpowerSection/Empower";
 import Guidance from "./GuidanceSection/Guidance";
 import Better from "./BetterSection/Better";
-// import Debt from "./DebtSection/Debt";r5
+import Debt from "./DebtSection/Debt";
 // import Reviews from "./ReviewsSection/Reviews";
 // import Perfect from "./PerfectSection/Perfect";
 // import FooterSection from "./FooterSection/FooterSection";
@@ -12,7 +12,7 @@ const Features = ()=>{
         <Empower/>
         <Guidance/>
         <Better/>
-        {/*<Debt/>*/}
+        <Debt/>
         {/*<Reviews/>*/}
         {/*<Perfect/>*/}
         {/*<FooterSection/>*/}
