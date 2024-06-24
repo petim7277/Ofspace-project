@@ -82,13 +82,15 @@
         width: 6rem;
         height: 6rem;
         border-radius: 10px;
+        padding-top: 1rem;
     }
 
 
 
     .secondDiv img{
         width: 15rem;
-        height: 8rem;
+        height: 10rem;
         border-radius: 10px;
+        margin-left: 1rem;
     }
 }
