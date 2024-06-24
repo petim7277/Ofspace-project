@@ -109,7 +109,10 @@
     .wrapDiv{
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
+        justify-content: center;
+        align-content: center;
+        margin-left: 1rem;
     }
 
     .firstDiv img {
@@ -131,7 +134,7 @@
     }
 
     .lineTwo{
-        width: 18.50rem;
+        width: 15rem;
         height: 0.10rem;
 
     }
