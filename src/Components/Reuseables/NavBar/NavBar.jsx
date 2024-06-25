@@ -29,6 +29,7 @@ const NavBar = () => {
                     <a>Log in</a>
                     <button>Sign up</button>
                 </div>
+
                 <div className={styles.hamburger} onClick={toggleMenu}>
                     {isMenuOpen ? <FaTimes /> : <FaBars />}
                 </div>
