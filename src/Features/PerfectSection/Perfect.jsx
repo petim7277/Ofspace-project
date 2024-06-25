@@ -1,5 +1,6 @@
 import styles from "./Perfect.module.css"
 import diamondLogo from  "../../Assets/diamond.png"
+import card from "../../Assets/CreditCard.jpg"
 const Perfect = ()=>{
     return(
         <div className={styles.mainCont}>
@@ -18,7 +19,7 @@ const Perfect = ()=>{
                        </div>
 
                     <div className={styles.secondDiv}>
-
+                       <img src={card} alt={"Woman holding a credit card"}/>
                     </div>
             </div>
 

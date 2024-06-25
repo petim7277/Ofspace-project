@@ -82,6 +82,12 @@
     margin-top: -3rem;
 }
 
+.secondDiv img {
+    width: 16rem;
+    height: 19.60rem;
+    border-radius: 30px;
+}
+
 @media (max-width: 728px){
 
     .mainCont{
@@ -130,9 +136,16 @@
     .secondDiv{
         width: 16rem;
         height: 15rem;
-        margin-top: 3rem;
-        margin-left: 2rem;
-        background-image: linear-gradient(#9de87d, #e79b66, rgba(3, 6, 76, 0.51), #333B46,#333B46);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+       background-color: #E9ECEF;
         border: 1px solid peru;
+    }
+
+    .secondDiv img {
+        width: 16rem;
+        height: 12rem;
+        border-radius: 30px;
     }
 }
