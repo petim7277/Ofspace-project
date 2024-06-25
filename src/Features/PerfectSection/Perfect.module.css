@@ -13,8 +13,8 @@
 }
 
 .wrapperDiv{
-    width: 90vw;
-    height: 55vh;
+    width: 70vw;
+    height: 50vh;
     background-color: #333B46;
     border-radius: 15px;
     margin: 6rem 10rem 5rem 10rem;
@@ -91,7 +91,7 @@
     }
 
     .wrapperDiv{
-        width: 70vw;
+        width: 85vw;
         height: auto;
         border-radius: 15px;
         margin-left: 1rem;
