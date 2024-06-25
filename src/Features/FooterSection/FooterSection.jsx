@@ -27,9 +27,9 @@ const FooterSection = ()=>{
                             advertising-supported publisher<br/>
                             and comparison service .</p>
                         <div className={styles.imgDiv}>
-                            <img src={instaIcon} alt={"ofspace logo"}/>
-                            <img src={facebookLogo} alt={"ofspace logo"}/>
-                            <img src={twitterIcon} alt={"ofspace logo"}/>
+                            <img src={instaIcon} alt={"instagram logo"}/>
+                            <img src={facebookLogo} alt={"facebook logo"}/>
+                            <img src={twitterIcon} alt={"twitter logo"}/>
                         </div>
                     </div>
 

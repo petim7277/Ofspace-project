@@ -5,3 +5,8 @@
     background-color: #333B46;
 
 }
+
+@media (max-width: 728px){
+    width: auto;
+    height: 5rem;
+}

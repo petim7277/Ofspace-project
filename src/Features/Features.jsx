@@ -4,7 +4,7 @@ import Better from "./BetterSection/Better";
 import Debt from "./DebtSection/Debt";
 import Reviews from "./ReviewsSection/Reviews";
 import Perfect from "./PerfectSection/Perfect";
-// import FooterSection from "./FooterSection/FooterSection";
+import FooterSection from "./FooterSection/FooterSection";
 
 const Features = ()=>{
     return(
@@ -15,7 +15,7 @@ const Features = ()=>{
         <Debt/>
         <Reviews/>
         <Perfect/>
-        {/*<FooterSection/>*/}
+        <FooterSection/>
         </>
     );
 

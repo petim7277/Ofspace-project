@@ -78,3 +78,41 @@
     font-family: Britanica,cursive;
     font-size: 22px;
 }
+
+@media (max-width: 728px){
+
+    .mainCont{
+        width: auto;
+        height: auto;
+    }
+
+    .wrapperDiv{
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 5rem;
+    }
+
+    .firstDiv{
+        margin-top: 3rem;
+    }
+
+
+    .imgDiv{
+        width: 2rem;
+        height: 2rem;
+        padding-top: 1rem;
+        gap: 0.50rem;
+    }
+
+    .secondDiv{
+        margin-top: 2rem;
+
+    }
+
+    .secondDiv  h4{
+        color: #394049;
+        font-family: Britanica,cursive;
+        font-size: 22px;
+    }
+
+}
