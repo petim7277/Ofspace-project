@@ -10,7 +10,6 @@
     height: 70vh;
     background-color: #FEF9F5;
     margin-top: -5rem;
-
 }
 
 .wrapperDiv{
@@ -81,4 +80,59 @@
     border-radius: 30px;
     border: 3px solid #f3dde2;
     margin-top: -3rem;
+}
+
+@media (max-width: 728px){
+
+    .mainCont{
+        width: auto;
+        height: auto;
+        margin-top: -5rem;
+    }
+
+    .wrapperDiv{
+        width: 70vw;
+        height: auto;
+        border-radius: 15px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .firstDiv{
+        gap: 2rem;
+    }
+
+    .firstBox{
+        margin-left: 2rem;
+        margin-top: 1.50rem;
+    }
+
+
+    .firstBox h1{
+        color: #E9ECEF;
+        font-family: Britanica,cursive;
+        font-size: 30px;
+    }
+
+    .firstBox button {
+        width: 8rem;
+        height: 2.50rem;
+    }
+    .diamonds{
+        display: flex;
+        flex-direction: row;
+        gap: 1.50rem;
+
+    }
+
+    .secondDiv{
+        width: 16rem;
+        height: 23.60rem;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        background-image: linear-gradient(#9de87d, #e79b66, rgba(3, 6, 76, 0.51), #333B46,#333B46);
+        border: 1px solid peru;
+    }
 }

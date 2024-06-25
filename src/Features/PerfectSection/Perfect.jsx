@@ -10,6 +10,7 @@ const Perfect = ()=>{
                                <h1>Your perfect card is<br/>one click away</h1>
                                <button>Find your match</button>
                            </div>
+
                             <div className={styles.diamonds}>
                                 <img src={diamondLogo} alt={"Diamond logo"} className={styles.smallDiamond}/>
                                 <img src={diamondLogo} alt={"Diamond logo"} className={styles.bigDiamond}/>
